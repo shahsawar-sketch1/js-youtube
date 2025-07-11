@@ -35,8 +35,8 @@ let myobj={
     class : 12
 }
 
-console.log(myobj);
-console.table(typeof myobj)
+// console.log(myobj);
+// console.table(typeof myobj)
 
 
 // function (){}//this is definition of function in javascript
@@ -45,4 +45,34 @@ console.table(typeof myobj)
 const myfunction = function(){
     console.log("hello world")
 }
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=========================
+
+// stack(primitive),heap(non-primitive)
+
+let myYoutubeName="shahsawar"
+
+let anotheryoutube=myYoutubeName
+
+anotheryoutube="Anton x"
+
+console.log(anotheryoutube);
+console.log(myYoutubeName);
+
+
+let userone = {
+    email : "user@google.com",
+    upi:"user@ybl",
+}
+let usertwo= userone
+
+usertwo.email ="user@youtube.com"
+usertwo.upi ="user@shahsawar"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
