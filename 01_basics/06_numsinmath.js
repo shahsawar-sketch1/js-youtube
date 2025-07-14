@@ -6,7 +6,7 @@ const score = 400
 const balance =new Number(100)
 // console.log(balance);// we can change it into strting like that console.log(balance.tostring()); then output
 
-// console.log(balance.toString().length);// this is a string so thats why we can find the length of this string this is the functionality of
+// console.log(balance.toString().length);// this is a string so thats why we  can find the length of this string this is the functionality of
 
 // console.log(balance.toFixed(5));// you should use to fixed while making of ecommorce website
 
